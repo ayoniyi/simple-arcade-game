@@ -4,27 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Simple Game</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <style>
-    .canvasBox {
-      width: 100%;
-      /* background: pink; */
-      display: flex;
-      align-items: center;
-    }
-    .canvas {
-      cursor: pointer;
-      margin: 4em auto;
-    }
-  </style>
+
   <body>
-    <div class="canvasBox">
-      <canvas class="canvas" id="gameCanvas" width="1000" height="600">
-      </canvas>
+    <div class="imgBox">
+      <img src="/computer22.png" alt="arcade" />
     </div>
-    <!-- <div id="app"></div>
-    <script type="module" src="/main.js"></script> -->
+    <div class="canvasBox">
+      <canvas class="canvas" id="gameCanvas" width="800" height="500"> </canvas>
+    </div>
+
     <script src="/main.js"></script>
   </body>
 </html>
