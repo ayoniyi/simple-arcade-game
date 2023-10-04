@@ -17,14 +17,14 @@ body {
 }
 .disclaimer {
   background: #000;
-  width: 80%;
+  width: 100%;
   margin: 2em auto;
   height: 70vh;
   display: none;
 }
 .disclaimer p {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.1em;
   font-family: arcade;
   color: rgb(4, 96, 4);
 }
