@@ -12,8 +12,7 @@
   <body>
     <div class="disclaimer">
       <p>
-        This game is not available on mobile devices please switch to a
-        computer.
+        This game is not playable on mobile devices please switch to a computer.
       </p>
     </div>
     <div class="content">
@@ -69,6 +68,7 @@
         canvas = document.getElementById("gameCanvas");
         canvasContext = canvas.getContext("2d");
         const framesPerSecond = 30;
+
         setInterval(function () {
           moveEverything();
           drawEverything();
