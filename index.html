@@ -11,7 +11,7 @@
 
   <body>
     <div class="overlay"></div>
-    <div class="imgBox">
+    <div class="imgBoxhide" id="monitor">
       <img src="/computer22.png" alt="arcade" />
     </div>
     <div class="canvasBox">
@@ -54,6 +54,8 @@
         alert(
           "Welcome!, please use your mouse to control the paddle on the left of the sreen."
         );
+        const monitor = document.getElementById("monitor");
+        monitor.classList.replace("imgBoxhide", "imgBox");
 
         canvas = document.getElementById("gameCanvas");
         canvasContext = canvas.getContext("2d");

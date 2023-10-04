@@ -26,6 +26,10 @@ body {
   /* height: 600px; */
   /* background: pink; */
 }
+
+.imgBoxhide img {
+  display: none;
+}
 .imgBox img {
   width: 1200px;
   height: 1000px;
